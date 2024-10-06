@@ -1,0 +1,19 @@
+#loading-state{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#loading {
+    display: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation: loading 1.5s linear infinite;
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
